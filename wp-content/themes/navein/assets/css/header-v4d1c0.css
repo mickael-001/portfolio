@@ -1,0 +1,8 @@
+@-webkit-keyframes slideInDown{from{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);visibility:visible}to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}@keyframes slideInDown{from{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);visibility:visible}to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}.slideInDown{-webkit-animation-name:slideInDown;animation-name:slideInDown}
+#dtr-header-global { position: relative; }
+.dtr-header-global-content { justify-content: space-between; }
+.admin-bar #dtr-header-global.header-fixed { top: 32px }
+#dtr-header-global.header-fixed { position: fixed !important; left: 0; top: 0; right: 0; -webkit-animation: 0.5s ease 0s normal forwards 1 running slideInDown; -khtml-animation: 0.5s ease 0s normal forwards 1 running slideInDown; -moz-animation: 0.5s ease 0s normal forwards 1 running slideInDown; -ms-animation: 0.5s ease 0s normal forwards 1 running slideInDown; -o-animation: 0.5s ease 0s normal forwards 1 running slideInDown; animation: 0.5s ease 0s normal forwards 1 running slideInDown; padding-top: 20px; padding-bottom: 20px; }
+#dtr-header-global .logo-default, #dtr-header-global.header-fixed .logo-alt { display: block !important; }
+#dtr-header-global .logo-alt, #dtr-header-global.header-fixed .logo-default { display: none !important; }
+.hide-onscroll #dtr-header-global.header-fixed { display: none; }
